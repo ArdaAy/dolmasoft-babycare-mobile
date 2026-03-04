@@ -21,8 +21,8 @@ Initial version:
 
 - main → production
 - development → integration
-- feature/<slug>
-- bugfix/<slug>
+- `feature/<slug>`
+- `bugfix/<slug>`
 
 ## Backend API
 
