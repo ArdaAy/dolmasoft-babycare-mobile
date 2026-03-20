@@ -1,12 +1,13 @@
 # Dolmasoft BabyCare Mobile
 
-Flutter mobile application for BabyCare platform.
+Flutter mobile application for the BabyCare platform.
 
 ## Tech Stack
 
-- Flutter (stable)
+- Flutter
 - Dart
-- REST API (Spring Boot backend)
+- Riverpod
+- REST API backend
 
 ## Versioning
 
@@ -29,5 +30,7 @@ Initial version:
 Backend repository:
 dolmasoft-babycare-api
 
+## Local Development
+
 Default local API base URL:
-http://localhost:8080
+http://localhost:5099
