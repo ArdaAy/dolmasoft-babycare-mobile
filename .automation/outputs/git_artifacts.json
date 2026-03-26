@@ -1,0 +1,7 @@
+{
+  "branch_name": "feature/86ewzcpmj-register",
+  "commit_subject": "feat(auth): add register flow",
+  "commit_body": "Add the BabyCare registration screen, API client, password policy validation, token persistence, and Riverpod session state handling.",
+  "pr_title": "feat(auth): add register flow",
+  "pr_body_markdown": "## Summary\n- Adds the BabyCare registration flow for email/password sign-up.\n- Persists access and refresh tokens locally on success.\n- Handles validation, duplicate-email, and password-policy outcomes from the API contract.\n\n## Verification\n- `flutter analyze`\n- `flutter test`"
+}
