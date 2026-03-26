@@ -1,0 +1,7 @@
+{
+  "branch_name": "feature/86ewzcpmj-register",
+  "commit_subject": "feat(auth): add register flow",
+  "commit_body": "Implement the mobile registration flow against POST /api/v1/auth/register.\n\nAdd a Riverpod-based auth controller, token persistence, contract-specific error handling, and a signed-in success state. Add controller tests for successful registration and duplicate-email failures.",
+  "pr_title": "feat: implement register flow",
+  "pr_body_markdown": "## Summary\n- replace the default Flutter counter app with a BabyCare registration flow\n- call `POST /api/v1/auth/register` and handle `400 validation_error`, `409 email_already_in_use`, and `422 password_policy_failed` distinctly\n- persist `accessToken`, `refreshToken`, and canonical user identity after a successful registration\n- add Riverpod state management and controller tests for success and failure paths\n\n## Testing\n- `flutter pub get`\n- `flutter analyze`\n- `flutter test`\n\n## Notes\n- the API base URL is configurable with `--dart-define=API_BASE_URL=...` and defaults to `http://localhost:5099` from the repository README\n- no commit, push, or PR was created in this task"
+}
